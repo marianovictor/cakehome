@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+ 
+.container {
+    bottom: 0;
+}
+.container .PinkBox {
+    width: 100%;
+    height: 100%;
+    background-color: #ed157b;
+    bottom: 0;
+}
+
+.container .PinkBox .upper {
+    margin-top: 50px;
+    display: flex;   
+}
+
+.container .PinkBox .upper .title {
+    justify-content: baseline;
+    align-items: center;
+    display: flex;    
+}
+
+.container .PinkBox .upper .title img {
+    margin-left: 30px;
+}
+
+.container .PinkBox .upper .title h1{
+    max-width: 250px;
+    font-size: 24px;
+    font-family: 'Roboto',sans-serif;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+.container .PinkBox .upper .title img {
+    width: 100px;
+    height: 100px;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 3px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.column {
+    margin-right: 200px;
+    width: 130px;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+}
+
+.container .PinkBox .lower  {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+}
+
+.container .PinkBox .lower .bottomCACCo {
+    margin-top: 40px;
+}
+
+.icons {
+    margin-top: 5px;
+}
