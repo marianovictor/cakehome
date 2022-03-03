@@ -1,71 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
  
 .container {
-    bottom: 0;
+    bottom: 0%;
 }
 .container .PinkBox {
     width: 100%;
     height: 100%;
-    background-color: #ed157b;
-    bottom: 0;
+    background-color:rgba(211, 139, 139, 1);
+    bottom: 0%;
 }
-
-.container .PinkBox .upper {
-    margin-top: 50px;
-    display: flex;   
-}
-
-.container .PinkBox .upper .title {
-    justify-content: baseline;
-    align-items: center;
-    display: flex;    
-}
-
-.container .PinkBox .upper .title img {
-    margin-left: 30px;
-}
-
-.container .PinkBox .upper .title h1{
-    max-width: 250px;
-    font-size: 24px;
-    font-family: 'Roboto',sans-serif;
-    margin-left: 20px;
-    margin-right: 200px;
-}
-
-.container .PinkBox .upper .title img {
-    width: 100px;
-    height: 100px;
-}
-
-h4 {
-    font-size: 20px;
-    margin: 3px;
-}
-
-li {
-    list-style-type: none;
-}
-
-.column {
-    margin-right: 200px;
-    width: 130px;
-    text-align: center;
-    font-family: 'Roboto',sans-serif;
-}
-
-.container .PinkBox .lower  {
-    justify-content: center;
-    align-items: center;
+.upper{
+    flex: 1;
     display: flex;
-    text-align: center;
-    font-family: 'Roboto',sans-serif;
 }
-
-.container .PinkBox .lower .bottomCACCo {
-    margin-top: 40px;
+.logo{
+    left: 0px;
+    top: -9px;
 }
-
-.icons {
-    margin-top: 5px;
+.logo img{
+    width: 180px;
+    height: 180px;
+}
+.slogan1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    font-size: 18px;
+    font-family: cursive;
+}
+.contatos{
+    display: flex;
+    flex-direction:row;
+    padding: 6rem 4rem;
+    cursor: pointer;
+    right: 0px;
+}
+.lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.direitos h3{
+    font-size: 12px;
 }

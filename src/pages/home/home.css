@@ -46,6 +46,7 @@
     width: 100px;
     height: 100px;  
 }
+/*//////////////////////////////////////////////////////*/
 .PhotosContainer{
     display: flex;
     margin-left: 5%;
@@ -86,4 +87,41 @@
     margin-top: 5%;
     margin-left: 20%;
     flex-direction: row;
+}
+/*//////////////////////////////////////////////////////*/
+.ContatoContainer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.titleContato h1{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    size: 20px;
+    cursor: pointer;
+}
+.titleContato h1:hover{
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+.ContatoContainer p{
+    display: flex;
+    width: 623px;
+    height: 82px;
+}
+.textContato{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+.icons{
+    cursor: pointer;
+    padding: 0rem 5rem;
 }
