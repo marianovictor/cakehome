@@ -40,6 +40,7 @@
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-end;
+    margin-right: 5%;
 }
 .textAbout img{
     width: 100px;
@@ -47,8 +48,9 @@
 }
 .PhotosContainer{
     display: flex;
-    width: 100%;
-    height: 100%;
+    margin-left: 5%;
+    width: 981px;
+    height: 200px;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
@@ -65,19 +67,23 @@
     transform: scale(1.1);
     transition: all ease 500ms;
 }
-.PhotosContainer p{
-    display: flex;
-    width: 623px;
-    height: 82px;
-    margin-left: 5%;
-}
-.textPhotos{
+.Photos{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-end;
+    
 }
-.textPhotos img{
-    width: 100px;
-    height: 100px;  
+.Photos img{
+    width: 200px;
+    height: 200px; 
+}
+
+.textPhotos p{
+    position: absolute;
+    width: 800px;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 20%;
+    flex-direction: row;
 }
