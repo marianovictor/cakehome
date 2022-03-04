@@ -25,6 +25,7 @@
     justify-content: center;
     size: 20px;
     cursor: pointer;
+    color: var(--color-text);
 }
 .titleAbout h1:hover{
     transform: scale(1.1);

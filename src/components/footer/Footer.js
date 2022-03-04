@@ -33,7 +33,7 @@ export default function Footer() {
                 </div>
                 <div className='lower'>
                     <div className="direitos">
-                        <h3>Powered By <a href="https://www.linkedin.com/in/victor-rocha-8b39ba21a/">Victor Mariano Rocha</a></h3>
+                        <h3>Powered By <a href="https://www.linkedin.com/in/victor-rocha-8b39ba21a/" style={{ color: 'var(--color-text)' }}>Victor Mariano Rocha</a></h3>
                         <h3>&copy;{new Date().getFullYear()} Cake Home Todos os direitos reservados</h3>
                     </div>
                 </div>             
