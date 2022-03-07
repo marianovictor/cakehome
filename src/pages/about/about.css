@@ -2,14 +2,14 @@
     width: 100%;
     height: 100%;
 }
-.titlePag h1{
+.titlePag1 h1{
     margin-top: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--color-text);
 }
-.genericontainer{
+.genericontainer1{
     width: 1400px;
     height: 296px;
     display: flex;
@@ -17,14 +17,14 @@
     align-items: center;
     justify-content: center;
 }
-.titleGeneric h2{
+.titleGeneric1 h2{
     margin-top: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--color-text);
 }
-.textGeneric{
+.textGeneric1{
     display: flex;
     align-items: center;
     justify-content: center;

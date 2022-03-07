@@ -3,6 +3,9 @@ import './home.css';
 import Carroseul, { CarouselItem }from '../../components/carroseulMain/carrouseul';
 import logo from '../../assets/LogoRedondo.png';
 import foto1 from '../../assets/testeFoto.jpg';
+import foto2 from '../../assets/foto2.png';
+import foto3 from '../../assets/foto3.png';
+import foto4 from '../../assets/foto1.png';
 import Fade from 'react-reveal/Fade';
 import { BsInstagram, BsWhatsapp } from 'react-icons/bs';
 import { BsFacebook } from 'react-icons/bs';
@@ -38,8 +41,9 @@ export default function Home() {
                     <div className="Photos">
                             <Carroseul>
                                 <CarouselItem><img src={foto1} alt="foto"/></CarouselItem>
-                                <CarouselItem><img src={foto1} alt="foto"/></CarouselItem>
-                                <CarouselItem><img src={foto1} alt="foto"/></CarouselItem>
+                                <CarouselItem><img src={foto2} alt="foto"/></CarouselItem>
+                                <CarouselItem><img src={foto3} alt="foto"/></CarouselItem>
+                                <CarouselItem><img src={foto4} alt="foto"/></CarouselItem>
                             </Carroseul>
                     </div>
                 </div>
