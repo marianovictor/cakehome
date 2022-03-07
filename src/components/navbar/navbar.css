@@ -153,6 +153,9 @@
     .Navbar{
         padding: 2rem 2rem;
     }
+    .navbar__menu{
+        right: 0%;
+    }
 
 }
 

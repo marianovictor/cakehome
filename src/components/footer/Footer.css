@@ -44,3 +44,27 @@
 .direitos h3{
     font-size: 12px;
 }
+@media screen and (max-width: 850px){ 
+    .logo{
+        display: none;
+    }
+    .slogan1{
+        display: none;
+    }
+    .contatos{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 700px){ 
+    .logo{
+        display: none;
+    }
+    .slogan1{
+        display: none;
+    }
+    .contatos{
+        display: none;
+    }
+
+}
