@@ -29,19 +29,28 @@
 }
 .titleGeneric{
     border-color: black;
+    width: 100%;
     border-style:solid;
     border-width: 5px;
     border-radius: 36px;
-    z-index: -1;
 }
 .textGeneric h4{
     display: flex;
     align-items: center;
     
 }
+.cardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
 .cards{
     height: 100%;
+    width: 400px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
     background-color:var(--color-footer);
 }
@@ -49,7 +58,7 @@
     margin: 40px;
     display: flex;
     width: 400px;
-    height: 400px;
+    height: 100%;
     background-color: rgba(255, 255, 255,0.1);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -75,10 +84,173 @@
 .foto img {
     height: 30vh;
     width: 30vh;
+    z-index: -1;
 }
 .description p{
     display: flex;
     align-items: baseline;
     color: var(--color-text);
     padding: 1rem;
+}
+    /*//////////////////////////////////////////////////////*/
+    /*//////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 400px){
+    .foto img {
+        height: 30vh;
+        width: 30vh;
+        z-index: -1;
+    }
+    .cardContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cards{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .foto {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        border-radius: 20px;
+    }
+
+}
+@media screen and (max-width: 450px){
+    .foto img {
+        height: 30vh;
+        width: 30vh;
+        z-index: -1;
+    }
+    .cardContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cards{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .foto {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        border-radius: 20px;
+    }
+
+}
+@media screen and (max-width:600px){
+    .foto img {
+        height: 30vh;
+        width: 30vh;
+        z-index: -1;
+    }
+    .cardContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cards{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .foto {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        border-radius: 20px;
+    }
+}
+@media screen and (max-width:650px){
+    .foto img {
+        height: 30vh;
+        width: 30vh;
+        z-index: -1;
+    }
+    .cardContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cards{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .foto {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        border-radius: 20px;
+    }
+}
+@media screen and (max-width: 850px){
+    .foto img {
+        height: 30vh;
+        width: 30vh;
+        z-index: -1;
+    }
+    .cardContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cards{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .foto {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        border-radius: 20px;
+    }
+}
+@media  screen and (max-width:1050px) {
+    .foto img {
+        height: 30vh;
+        width: 30vh;
+        z-index: -1;
+    }
+    .cardContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cards{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .foto {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        border-radius: 20px;
+    }
+    
 }

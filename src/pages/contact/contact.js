@@ -32,14 +32,12 @@ export default function About() {
         <div className="container">
             <div className="titlePag1"><h1>Contato</h1></div>
             <p className="subTitle">Entre em contato com a gente pelas redes sociais e pelo e-mail!!</p>
+            <div className="allContacts">
             <div className="contatoContainer">
                 <div className="titleContato">
                     <h2>Whatsapp</h2>
                     <h4>Clique na foto ou escaneie o QRCODE</h4>
-
-
                 </div>
-                
                 <a href = "https://wa.me/5519992678295">
                     <div className="media">
                         <img src={wpp} alt="foto"/>
@@ -49,9 +47,7 @@ export default function About() {
             <div className="contatoContainerFB">
                 <div className="titleContato">
                     <h2>Facebook</h2>
-                    <h4>Clique na foto ou escaneie o entre em facebbok.com/cakkehome</h4>
-
-
+                    <h5>Clique na foto ou escaneie o entre em facebbok.com/cakkehome</h5>
                 </div>
                 <a href = "https://www.facebook.com/cakkehome">
                     <div className="mediaFB">
@@ -70,6 +66,7 @@ export default function About() {
                     </div>
                 </a>
             </div>
+            </div>
             <div className="Contato">
                 <div className="titleContatoEmail">
                         <h2>Email</h2>
@@ -81,16 +78,16 @@ export default function About() {
                             <input type="text" className="form-control" placeholder="Name" style={{ color: 'var(--color-text)' }} name="name"/>
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto">
-                            <input type="email" className="form-control" placeholder="Email Address" name="email"/>
+                            <input type="email" className="form-control" placeholder="Email Address" style={{ color: 'var(--color-text)' }}name="email"/>
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto">
-                            <input type="text" className="form-control" placeholder="Subject" name="subject"/>
+                            <input type="text" className="form-control" placeholder="Subject" style={{ color: 'var(--color-text)' }}name="subject"/>
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto">
-                            <input type="number" className="form-control" placeholder="Phone" name="phone"/>
+                            <input type="number" className="form-control" placeholder="Phone" style={{ color: 'var(--color-text)' }}name="phone"/>
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto">
-                            <textarea className="form-control-message" id="" cols="30" rows="8" placeholder="Your Message" name="message"></textarea>
+                            <textarea className="form-control-message" id="" cols="30" rows="8" placeholder="Your Message" style={{ color: 'var(--color-text)' }}name="message"></textarea>
                         </div>
                         <div className="col-8 form-group pt-3 mx-auto">
                             <input type="submit" className="btn" value="Send Message"/>

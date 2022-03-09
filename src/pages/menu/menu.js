@@ -46,23 +46,51 @@ export default function Menu() {
                             <p >Link One 2...................$$$</p>
                             <p >Link One 3...................$$$</p>
                         </div>
+                    </div>
+                    <div class="dropdown">
                         <button class="dropbtn menu-two">Dropdown Two...................<AiFillCaretDown/></button>
                         <div id="myDropdown2" class="dropdown-content menu-two">
                             <p >Link Two 1...................$$$</p>
                             <p >Link Two 2...................$$$</p>
                             <p >Link Two 3...................$$$</p>
                         </div>
+                      </div>
+                      <div class="dropdown">
                         <button class="dropbtn menu-three">Dropdown three...................<AiFillCaretDown/></button>
                         <div id="myDropdown3" class="dropdown-content menu-three">
                             <p >Link Two 1...................$$$</p>
                             <p >Link Two 2...................$$$</p>
                             <p >Link Two 3...................$$$</p>
                         </div>
+                      </div>
+                      <div class="dropdown">
+                        <button class="dropbtn menu-four">Dropdown four...................<AiFillCaretDown/></button>
+                        <div id="myDropdown3" class="dropdown-content menu-four">
+                            <p >Link Two 1...................$$$</p>
+                            <p >Link Two 2...................$$$</p>
+                            <p >Link Two 3...................$$$</p>
+                        </div>
+                      </div>
+                      <div class="dropdown">
+                        <button class="dropbtn menu-five">Dropdown five...................<AiFillCaretDown/></button>
+                        <div id="myDropdown3" class="dropdown-content menu-five">
+                            <p >Link Two 1...................$$$</p>
+                            <p >Link Two 2...................$$$</p>
+                            <p >Link Two 3...................$$$</p>
+                        </div>
+                      </div>
+                      <div class="dropdown">
+                        <button class="dropbtn menu-six">Dropdown six...................<AiFillCaretDown/></button>
+                        <div id="myDropdown2" class="dropdown-content menu-six">
+                            <p >Link Two 1...................$$$</p>
+                            <p >Link Two 2...................$$$</p>
+                            <p >Link Two 3...................$$$</p>
+                        </div>
+                      </div>
                     </div>
                 </div>
                 
             </div>
-        </div>
         </div>
     );
 }

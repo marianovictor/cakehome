@@ -44,6 +44,18 @@
 .direitos h3{
     font-size: 12px;
 }
+@media screen and (max-width: 1050px){ 
+    .logo{
+        display: none;
+    }
+    .slogan1{
+        display: none;
+    }
+    .contatos{
+        display: none;
+    }
+
+}
 @media screen and (max-width: 850px){ 
     .logo{
         display: none;
@@ -53,6 +65,12 @@
     }
     .contatos{
         display: none;
+    }
+    .container .PinkBox {
+        width: 100%;
+        height: 100px;
+        background-color:rgba(211, 139, 139, 1);
+        bottom: 0%;
     }
 
 }
