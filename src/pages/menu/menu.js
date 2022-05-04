@@ -73,6 +73,12 @@ export default function Menu() {
                                     </label>
                                 </div>
                                 <div className="form-check m-3">
+                                  <input className="form-check-input" type="checkbox" name="languages" value="Bolo 0" id="flexCheckDefault" onChange={handleChange}/>
+                                    <label className="form-check-label" htmlFor="flexCheckDefault">
+                                      Bolo muito topzera
+                                    </label>
+                                </div>
+                                <div className="form-check m-3">
                                   <input className="form-check-input" type="checkbox" name="languages" value="Bolo 2" id="flexCheckDefault" onChange={handleChange}/>
                                     <label className="form-check-label" htmlFor="flexCheckDefault">
                                       Bolo 2
